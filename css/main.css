@@ -1,0 +1,32 @@
+body {
+  background: #111;
+  overflow: hidden;
+}
+
+#bg {
+  background: radial-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 1));
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#radar {
+  background: linear-gradient(#333, #111);
+  box-shadow:
+    0 0 0 1px hsla(0, 0%, 0%, 0.5),
+    inset 0 0 0 1px hsla(0, 0%, 100%, 0.15)
+;
+  padding: 14px;
+  border-radius: 100%;
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+canvas {
+  background: radial-gradient(#222, #111);
+  border-radius: 100%;
+  display: block;
+}
