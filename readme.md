@@ -2,6 +2,7 @@
 
 Radar rendered in JS Canvas that shows the targets defined in a JSON file.
 This project has been designed for educational purposes both how JS Canvas works and notions of trigonometry. 
+You can try a functional demo of the project at [https://junisan.github.io/RadarJS/](https://junisan.github.io/RadarJS/)
 
 This project has been designed for educational purposes in the following areas:
 - How Javascript Canvas works
